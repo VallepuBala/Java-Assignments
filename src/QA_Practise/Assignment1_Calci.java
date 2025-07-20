@@ -17,7 +17,7 @@ public class Assignment1_Calci {
 		return sum;
 	}
 	
-	// 3. Argument, No Return Type
+	// 3. No Return Type
 	public static void natSum3(int n) {
 		System.out.println(n*(n+1)/2);
 	}
