@@ -1,6 +1,6 @@
 package QA_Practise;
 
-public class Assignment2_MethodOverriding {
+public class Assignment2_MethodOverloading {
 	String panNum;
 	String passportId;
 	String voterId;
@@ -39,7 +39,7 @@ public class Assignment2_MethodOverriding {
 	public static void main(String[] args) {
 		
 		// Object Creation 
-		Assignment2_MethodOverriding aadharNum = new Assignment2_MethodOverriding();
+		Assignment2_MethodOverloading aadharNum = new Assignment2_MethodOverloading();
 		
 		// calling with only 1 argument panNum
 		aadharNum.generateAadharNum("ABCDE123M");
