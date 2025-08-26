@@ -18,6 +18,12 @@ public class Inheritance {
 		
 		class Child extends Inheritance{
 			
+			
+			// calling parent constructor using super()
+//			public Child(String parentName, int parentAge) {
+//				super(parentName, parentAge);
+//			}
+			
 			@ Override
 			public void willDo() {
 				System.out.println("Child will play.");
